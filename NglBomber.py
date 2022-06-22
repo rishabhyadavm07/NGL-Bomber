@@ -1,13 +1,11 @@
 #Importing Libraries
 from time import sleep
-import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# PATH = "/home/user/PythonProjects/NGLAutomation/chromedriver"
 nglLink = str(input("Enter the NGL Link: "))
 msgSend = str(input("Enter the message you want to BOMB: "))
 numberOfMsgs = int(input("Number of messages you want to send: "))
