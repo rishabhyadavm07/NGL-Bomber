@@ -10,7 +10,7 @@ nglLink = str(input("Enter the NGL Link: "))
 msgSend = str(input("Enter the message you want to BOMB: "))
 numberOfMsgs = int(input("Number of messages you want to send: "))
 options = webdriver.ChromeOptions()
-
+ 
 driver = webdriver.Chrome('chromedriver', options=options)
 driver.set_window_position(0, 0)
 driver.set_window_size(0, 0)
